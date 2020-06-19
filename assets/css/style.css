@@ -1172,6 +1172,7 @@ section {
 /* Adds margin below socials */
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 /* Creates boxed icons for socials */
@@ -1211,4 +1212,17 @@ section {
 
 #footer .credits a {
   transition: 0.3s;
+}
+
+
+/* Vishnu Styles */
+
+/* Basically the row from bootstrap, but with centered sub-items */
+.general-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
