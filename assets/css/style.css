@@ -760,7 +760,7 @@ section {
 # About Boxes
 --------------------------------------------------------------*/
 .about-boxes {
-  background: url("../img/aboutBoxes/about-boxes-bg.jpg") center top no-repeat
+  background: url("../img/aboutBoxes/about-boxes-bg.jpeg") center top no-repeat
     fixed;
   background-size: cover;
   padding: 60px 0 30px 0;
