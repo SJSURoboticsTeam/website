@@ -2,4 +2,4 @@ User-agent: *
 Disallow:
 Allow: /
 
-Sitemap: sjsurobotics.org/sitemap.xml
+Sitemap: https://www.sjsurobotics.org/sitemap.xml
