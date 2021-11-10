@@ -46,12 +46,23 @@
     })(window, document, "clarity", "script", "991s0kxzf5");
   </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-HF3368RYSS"></script>
+  <script src="https://unpkg.com/uuid@latest/dist/umd/uuidv4.min.js"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-  
-    gtag('config', 'G-HF3368RYSS');
+    //gtag('config', 'G-HF3368RYSS');
+    const GA_LOCAL_STORAGE_KEY = 'ga:clientId';
+    if (window.localStorage) {
+      if (!localStorage.getItem(GA_LOCAL_STORAGE_KEY)) {
+        window.localStorage.setItem(GA_LOCAL_STORAGE_KEY, uuidv4());
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-HF3368RYSS', {
+          clientStorage: 'none',
+          anonymize_ip: true,
+          client_id: localStorage.getItem(GA_LOCAL_STORAGE_KEY),
+        });
+    }
   </script>
   
   <!-- =======================================================
