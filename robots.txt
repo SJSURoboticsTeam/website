@@ -1,5 +1,4 @@
 User-agent: *
-Disallow:
-Allow: /
+Disallow: /privacy_policy.html
 
 Sitemap: https://www.sjsurobotics.org/sitemap.xml
