@@ -1009,6 +1009,7 @@ section {
 
 .lead .member .pic {
   overflow: hidden;
+  border-radius: 13px;
 }
 
 .lead .member .member-info {
@@ -1022,6 +1023,8 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: 0.5s;
+  border-radius: 10px;
+  width: max-content;
 }
 
 .lead .member h4 {
