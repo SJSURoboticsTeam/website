@@ -1,6 +1,6 @@
-# SJSU Robotics Website 2020
+# SJSU Robotics Website
 
-SJSU Robotics updated website 2020
+SJSU Robotics website - changes to master branch will be automatically deployed.
 
 ---
 

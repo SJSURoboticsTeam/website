@@ -20,6 +20,7 @@ a {
 a:hover {
   color: #157acc;
   text-decoration: none;
+  opacity: 60%;
 }
 
 h1,
@@ -34,6 +35,13 @@ h6 {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
+#header-sjsu-robotics {
+  color: #fff;
+  padding: 10px 0;
+  transition: all 0.5s;
+  z-index: 997;
+}
+
 .back-to-top {
   position: fixed;
   display: none;
@@ -49,7 +57,7 @@ h6 {
   font-size: 24px;
   width: 40px;
   height: 40px;
-  border-radius: 4px;
+  border-radius: 10px;
   background: #105e9f;
   color: #fff;
   transition: all 0.4s;
@@ -135,12 +143,12 @@ h6 {
 }
 
 #header .logo {
-  font-size: 32px;
   margin: 0;
   padding: 0;
   line-height: 1;
   font-weight: 700;
   letter-spacing: 2px;
+  font-size: x-large;
 }
 
 #header .logo a {
@@ -461,6 +469,12 @@ h6 {
   line-height: 56px;
   color: #fff;
 }
+
+/* id header id nav-header-text needs to remove all css styling
+#home h1 a #header #nav-header-text {
+  color: #fff;
+  text-decoration: none;
+} */
 
 #home h2 {
   color: #eee;
@@ -796,7 +810,7 @@ section {
 }
 
 .about-boxes .card {
-  border-radius: 3px;
+  border-radius: 10px;
   border: 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
@@ -815,7 +829,7 @@ section {
   padding-top: 5px;
   text-align: center;
   background-color: #105e9f;
-  border-radius: 4px;
+  border-radius: 10px;
   text-align: center;
   border: 4px solid #fff;
   transition: 0.3s;
@@ -829,10 +843,12 @@ section {
 .about-boxes .card-title {
   font-weight: 700;
   text-align: center;
+  border-bottom: #116eba 1px dashed;
 }
 
 .about-boxes .card-title a {
   color: #15222b;
+
 }
 
 .about-boxes .card-title a:hover {
@@ -844,8 +860,7 @@ section {
 }
 
 .about-boxes .card:hover .card-icon i {
-  background: #fff;
-  color: #faa42a;
+  opacity: 80%;
 }
 
 @media (max-width: 1024px) {
@@ -916,8 +931,9 @@ section {
 }
 
 .gallery .gallery-item .gallery-img {
-  width: 500px;
-  border: 6px solid rgba(255, 255, 255, 0.15);
+  width: 100%;
+  border: 3px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
   margin: 0 auto;
 }
 
@@ -1009,6 +1025,7 @@ section {
 
 .lead .member .pic {
   overflow: hidden;
+  border-radius: 10px;
 }
 
 .lead .member .member-info {
@@ -1022,6 +1039,8 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: 0.5s;
+  border-radius: 10px;
+  width: max-content;
 }
 
 .lead .member h4 {
@@ -1054,6 +1073,14 @@ section {
   .lead .member {
     margin-bottom: 110px;
   }
+}
+
+#team-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  /* make this pop */
 }
 
 /*--------------------------------------------------------------
@@ -1195,7 +1222,7 @@ section {
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
-  border-radius: 4px;
+  border-radius: 10px;
   text-align: center;
   width: 36px;
   height: 36px;
