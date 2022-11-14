@@ -20,6 +20,7 @@ a {
 a:hover {
   color: #157acc;
   text-decoration: none;
+  opacity: 60%;
 }
 
 h1,
@@ -34,6 +35,13 @@ h6 {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
+#header-sjsu-robotics {
+  color: #fff;
+  padding: 10px 0;
+  transition: all 0.5s;
+  z-index: 997;
+}
+
 .back-to-top {
   position: fixed;
   display: none;
@@ -835,10 +843,12 @@ section {
 .about-boxes .card-title {
   font-weight: 700;
   text-align: center;
+  border-bottom: #116eba 1px dashed;
 }
 
 .about-boxes .card-title a {
   color: #15222b;
+
 }
 
 .about-boxes .card-title a:hover {
@@ -850,8 +860,7 @@ section {
 }
 
 .about-boxes .card:hover .card-icon i {
-  background: #fff;
-  color: #faa42a;
+  opacity: 80%;
 }
 
 @media (max-width: 1024px) {
@@ -922,8 +931,9 @@ section {
 }
 
 .gallery .gallery-item .gallery-img {
-  width: 500px;
-  border: 6px solid rgba(255, 255, 255, 0.15);
+  width: 100%;
+  border: 3px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
   margin: 0 auto;
 }
 
@@ -1063,6 +1073,14 @@ section {
   .lead .member {
     margin-bottom: 110px;
   }
+}
+
+#team-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  /* make this pop */
 }
 
 /*--------------------------------------------------------------

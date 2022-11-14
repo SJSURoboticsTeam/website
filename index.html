@@ -87,16 +87,13 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
     <div class="container-fluid d-flex align-items-center justify-content-between">
-      <!-- <h1 class="logo"><a href="/">SJSU Robotics</a></h1> -->
-
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="/" class="logo active"><img src="assets/img/favicon.png" alt="" class="img-fluid">SJSU Robotics</a>
+      <a href="/" id="header-sjsu-robotics" class="logo active"><img src="assets/img/favicon.png" alt=""
+          class="img-fluid">SJSU Robotics</a>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="#header">Home</a></li>
-          <li><a href="#about">Status</a></li>
-          <li><a href="#sponsors">Sponsors</a></li>
+          <li><a href="#about-boxes">About</a></li>
           <li><a href="#lead">Leads</a></li>
           <li><a href="#contact">Contact</a></li>
           <li class="drop-down"><a href="">Learn More</a>
@@ -104,7 +101,6 @@
               <li><a href="competitions.html">Competitions</a></li>
               <li><a href="gallery.html">Gallery</a></li>
               <li><a href="past-leads.html">Past Leads</a></li>
-              <!-- <li><a href="volunteering.html">Volunteering</a></li> -->
             </ul>
           </li>
 
@@ -128,6 +124,7 @@
           data-autoplay="true"> Watch Video <i class="icofont-play-alt-2"></i></a>
       </div>
     </div>
+    <!-- <img id="video" class="hidden-xs hidden-sm img-fluid" src="assets/img/gallery/current-team.jpeg" alt="" /> -->
     <video autoplay loop muted id="video" class="hidden-xs hidden-sm"
       style="position: absolute; z-index: -1; left:0px; bottom:0px; min-width:100%; min-height:100%; text-align:center;">
       <source src="assets/video/Robotics-Header-Video-2016.webm" type="video/webm">
@@ -137,89 +134,6 @@
   <!-- ======= End Home Section ======= -->
 
   <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-        <br>
-        <style>
-          h2 {
-            text-align: center;
-          }
-
-          h6 {
-            text-align: center;
-          }
-        </style>
-        <h2>Our Team Status</h2>
-        <h6>Updated: November 2022</h6>
-        <div class="general-row justify-content-end">
-          <div class="col-lg-11">
-            <div class="general-row">
-
-              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
-                <div class="count-box">
-                  <i class="icofont-gears"></i>
-                  <span data-toggle="counter-up">10</span>
-                  <p>Mechanical</p>
-                </div>
-              </div>
-
-              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
-                <div class="count-box">
-                  <i class="icofont-chart-flow-2"></i>
-                  <span data-toggle="counter-up">5</span>
-                  <p>Electrical</p>
-                </div>
-              </div>
-
-              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
-                <div class="count-box">
-                  <i class="icofont-binary"></i>
-                  <span data-toggle="counter-up">15</span>
-                  <p>Control Systems</p>
-                </div>
-              </div>
-
-              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
-                <div class="count-box">
-                  <i class="icofont-brain"></i>
-                  <span data-toggle="counter-up">3</span>
-                  <p>Intelligent Systems</p>
-                </div>
-              </div>
-
-              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
-                <div class="count-box">
-                  <i class="icofont-console"></i>
-                  <span data-toggle="counter-up">1</span>
-                  <p>Mission Control</p>
-                </div>
-              </div>
-
-              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
-                <div class="count-box">
-                  <i class="icofont-dashboard-web"></i>
-                  <span data-toggle="counter-up">1</span>
-                  <p>Business</p>
-                </div>
-              </div>
-
-              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
-                <div class="count-box">
-                  <i class="icofont-test-tube-alt"></i>
-                  <span data-toggle="counter-up">5</span>
-                  <p>Science</p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ======= End About Section ======= -->
-
     <!-- ======= About Boxes Section ======= -->
     <section id="about-boxes" class="about-boxes">
       <div class="container" data-aos="fade-up">
@@ -228,19 +142,12 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="card">
               <img src="assets/img/aboutBoxes/about-box-project.jpeg" class="card-img-top" alt="...">
-              <div class="card-icon">
-                <i class="icofont-ui-calendar"></i>
-              </div>
               <div class="card-body">
                 <h5 class="card-title"><a>Current Project</a></h5>
-                <p class="card-text">This year, SJSU Robotics plans on re-entering the University Rover Challenge (URC)
-                  for the 2023 competition.
-                  The competition involves designing, constructing and controlling a Mars rover with the objective of
-                  helping astronauts on Mars.
-                  The rover must be able to dig up and inspect samples, travel through rough mountainous desert terrain,
-                  perform tasks such as
-                  turning levers, picking up and delivering objects, flip switches, be teleoperated from miles away, and
-                  also traverse terrain autonomously.
+                <p class="card-text">This year the team is aiming to compete in the <b>2023 University Rover
+                    Challenge</b>. We are building a Mars rover that can perform certain tasks such as detect life,
+                  traverse rough terrain autonomously, and turn levers, flip switches, and move heavy
+                  objects on its own.
                 </p>
               </div>
             </div>
@@ -248,25 +155,13 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
               <img src="assets/img/aboutBoxes/about-box-join.jpeg" class="card-img-top" alt="...">
-              <div class="card-icon">
-                <i class="icofont-users-alt-4"></i>
-              </div>
 
               <div class="card-body">
                 <h5 class="card-title"><a>Who Can Join</a></h5>
                 <p class="card-text">
-                  We welcome students from all majors and backgrounds to join our team. We are looking for students who
-                  are passionate about robotics and want to learn more about the field.
-                  We are also looking for students who are interested in working on a project that will take them out of
-                  their comfort zone and challenge them to think outside the box.
-                  We are looking for students who are willing to put in the time and effort to learn new skills and
-                  technologies.
-                  We are looking for students who are willing to work in a team environment and collaborate with others.
-                  We are looking for students who are willing to take on leadership roles and help others.
-                  We are looking for students who are willing to take on responsibility and be accountable for their
-                  actions.
-                  We are looking for students who are willing to be creative and innovative.
-                  We are looking for students who are willing to have fun and enjoy the process.
+                  We welcome students from all majors and backgrounds.
+                  We strive to create a diverse team that is inclusive, welcoming, and respectful of all.
+                  We want people who are dedicated to learning and growing as a team.
                 </p>
               </div>
             </div>
@@ -275,19 +170,12 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="card">
               <img src="assets/img/aboutBoxes/about-box-team.jpeg" class="card-img-top" alt="...">
-              <div class="card-icon">
-                <i class="icofont-people"></i>
-              </div>
-
               <div class="card-body">
                 <h5 class="card-title"><a>Our Team</a></h5>
-                <p class="card-text">The San Jose State University Robotics Team is a student-driven multi-disciplinary
-                  team with an emphasis in robotics design. Our main goal is to use the skills we have obtained in our
-                  academic coursework to further the boundaries of what can be achieved in the field of robotics.
-                  Through the few years of our existence, we have evolved from a club focused on small projects into a
-                  competition-oriented team, participating in the RASC-AL RoboOps competition in the past and the
-                  University
-                  Rover Competition (URC) in the present.
+                <p class="card-text">We are multi-disciplinary robotics
+                  team with an emphasis in science, technology, and engineering.
+                  Our team has grown from focusing on small personal projects to year-long team
+                  competitions starting with the RASC-AL RoboOps competition in 2015.
                 </p>
               </div>
             </div>
@@ -298,91 +186,9 @@
     </section>
     <!-- ======= End About Boxes Section ======= -->
 
-    <!-- ======= Sponsors Section ======= -->
-    <section id="sponsors" class="sponsors">
-      <div class="container" data-aos="zoom-in">
-        <style>
-          h2 {
-            text-align: center;
-          }
-
-          h6 {
-            text-align: center;
-          }
-        </style>
-        <h2>Our Sponsors</h2>
-
-        <row class="row">
-          <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/sponsors/SJSU-ENGR.png" class="img-fluid" alt="San Jose State Engineering Department">
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/sponsors/SJSU-AS.png" class="img-fluid" alt="SJSU Associated Students">
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/sponsors/google.png" class="img-fluid" alt="Google">
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/sponsors/protocase.png" class="img-fluid" alt="Protocase">
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/sponsors/hamamatsu.png" class="img-fluid" alt="Hamamatsu">
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/sponsors/industrial-metal-supply.png" class="img-fluid" alt="Industrial Metal Supply">
-          </div>
-
-          <div class=" col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/sponsors/khalil.png" class="img-fluid" alt="Kammace">
-          </div>
-        </row>
-
-      </div>
-    </section>
-    <!-- ======= End Sponsors Section ======= -->
-
-    <!-- ======= Gallery Section ======= -->
-    <section id="gallery" class="gallery">
-      <div class="container" data-aos="zoom-in">
-        <div class="owl-carousel gallery-carousel">
-          <div class="gallery-item">
-            <img src="assets/img/gallery/gallery-0.jpeg" class="gallery-img" alt="">
-          </div>
-
-          <div class="gallery-item">
-            <img src="assets/img/gallery/gallery-1.jpeg" class="gallery-img" alt="">
-          </div>
-
-          <div class="gallery-item">
-            <img src="assets/img/gallery/gallery-2.jpeg" class="gallery-img" alt="">
-          </div>
-
-          <div class="gallery-item">
-            <img src="assets/img/gallery/gallery-3.jpeg" class="gallery-img" alt="">
-          </div>
-
-          <div class="gallery-item">
-            <img src="assets/img/gallery/gallery-4.jpeg" class="gallery-img" alt="">
-          </div>
-
-          <div class="gallery-item">
-            <img src="assets/img/gallery/gallery-5.jpeg" class="gallery-img" alt="">
-
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ======= End Gallery Section ======= -->
-
     <!-- ======= Leads Section ======= -->
     <section id="lead" class="lead section-bg">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
           <style>
             h2 {
@@ -397,6 +203,7 @@
           <h2>2022 - 2023</h2>
         </div>
         <section id="leads-2022-2023">
+
           <row class="general-row">
             <div class="col-lg-2">
               <div class="member" data-aos="fade-up" data-aos-delay="100">
@@ -426,6 +233,7 @@
               </div>
             </div>
           </row>
+
           <row class="general-row">
             <div class="col-lg-2">
               <div class="member" data-aos="fade-up" data-aos-delay="100">
@@ -527,11 +335,210 @@
               </div>
             </div>
           </row>
-        </section>
+          <!-- <row class="general-row">
+            <div class="col-lg-11">
+              <div class="member" data-aos="fade-up" data-aos-delay="100">
+                <div class="pic">
+                  <img src="assets/img/gallery/current-team.jpeg" class="img-fluid" alt="" />
+                </div>
+                <div class="member-info">
+                  <h4>2023 Team</h4>
+                  <span>Updated Oct. 2022</span>
+                </div>
+              </div>
+            </div>
+          </row>
 
+          <row class="general-row">
+            <div class="col-lg-11">
+              <div class="member" data-aos="fade-up" data-aos-delay="100">
+                <div class="pic">
+                  <img src="assets/img/gallery/current-leads.jpeg" class="img-fluid" alt="" />
+                </div>
+                <div class="member-info">
+                  <h4>2023 Team</h4>
+                  <span>Updated Oct. 2022</span>
+                </div>
+              </div>
+            </div>
+          </row> -->
       </div>
     </section>
     <!-- ======= End Leads Section ======= -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <br>
+        <style>
+          h2 {
+            text-align: center;
+          }
+
+          h6 {
+            text-align: center;
+          }
+        </style>
+        <h2>Team Status</h2>
+        <h6>Updated: November 2022</h6>
+        <div class="general-row justify-content-end">
+          <div class="col-lg-11">
+            <div class="general-row">
+
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box">
+                  <i class="icofont-gears"></i>
+                  <span data-toggle="counter-up">10</span>
+                  <p>Mechanical</p>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box">
+                  <i class="icofont-chart-flow-2"></i>
+                  <span data-toggle="counter-up">5</span>
+                  <p>Electrical</p>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box">
+                  <i class="icofont-binary"></i>
+                  <span data-toggle="counter-up">15</span>
+                  <p>Control Systems</p>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box">
+                  <i class="icofont-brain"></i>
+                  <span data-toggle="counter-up">3</span>
+                  <p>Intelligent Systems</p>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box">
+                  <i class="icofont-computer"></i>
+                  <span data-toggle="counter-up">2</span>
+                  <p>Mission Control</p>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box">
+                  <i class="icofont-dashboard-web"></i>
+                  <span data-toggle="counter-up">1</span>
+                  <p>Business</p>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box">
+                  <i class="icofont-test-tube-alt"></i>
+                  <span data-toggle="counter-up">5</span>
+                  <p>Science</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======= End About Section ======= -->
+
+    <!-- ======= Sponsors Section ======= -->
+    <section id="sponsors" class="sponsors">
+      <div class="container" data-aos="zoom-in">
+        <style>
+          h2 {
+            text-align: center;
+          }
+
+          h6 {
+            text-align: center;
+          }
+        </style>
+        <h2>Sponsors</h2>
+
+        <row class="row">
+          <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/sponsors/SJSU-ENGR.png" class="img-fluid" alt="San Jose State Engineering Department">
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/sponsors/SJSU-AS.png" class="img-fluid" alt="SJSU Associated Students">
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/sponsors/google.png" class="img-fluid" alt="Google">
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/sponsors/protocase.png" class="img-fluid" alt="Protocase">
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/sponsors/hamamatsu.png" class="img-fluid" alt="Hamamatsu">
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/sponsors/industrial-metal-supply.png" class="img-fluid" alt="Industrial Metal Supply">
+          </div>
+
+          <div class=" col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/sponsors/khalil.png" class="img-fluid" alt="Kammace">
+          </div>
+        </row>
+
+      </div>
+    </section>
+    <!-- ======= End Sponsors Section ======= -->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+      <div class="container" data-aos="zoom-in">
+        <div class="owl-carousel gallery-carousel">
+          <div class="gallery-item">
+            <img src="assets/img/gallery/current-team.jpeg" class="gallery-img" alt="">
+            Current Robotics Team
+          </div>
+
+          <div class="gallery-item">
+            <img src="assets/img/gallery/current-leads.jpeg" class="gallery-img" alt="">
+            Current Team Leads
+          </div>
+
+          <div class="gallery-item">
+            <img src="assets/img/gallery/2019-competition.jpeg" class="gallery-img" alt="">
+            2019 Competition Team
+          </div>
+
+          <div class="gallery-item">
+            <img src="assets/img/gallery/2018-competition.jpeg" class="gallery-img" alt="">
+            2018 Competition Team
+          </div>
+
+          <div class="gallery-item">
+            <img src="assets/img/gallery/2017-competition.jpeg" class="gallery-img" alt="">
+            2017 Competition Team
+          </div>
+
+          <div class="gallery-item">
+            <img src="assets/img/gallery/2016-competition.jpeg" class="gallery-img" alt="">
+            2016 Competition Team
+          </div>
+
+          <div class="gallery-item">
+            <img src="assets/img/gallery/2015-competition.jpeg" class="gallery-img" alt="">
+            2015 Competition Team
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- ======= End Gallery Section ======= -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -557,7 +564,7 @@
                   <i class="bx bx-map"></i>
                   <h3>General Meetings</h3>
                   <p>San Jose State University</p>
-                  <p>Saturday 12 pm to 2 pm</p>
+                  <p>Saturday 12pm to 2pm</p>
                   <a href="https://www.google.com/maps/dir//Charles+W.+Davidson+College+of+Engineering,+1+Washington+Square,+San+Jose,+CA+95192/@37.337644,-121.9517736,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808fccbf9c49ae69:0x33714fc7762af269!2m2!1d-121.8817336!2d37.3376646"
                     target="_blank">Room : ENGR 141</a><br>
                 </div>
@@ -575,10 +582,10 @@
 
               <div class="col-md-12">
                 <div class="info-box">
-                  <i class="bx bx-down-arrow-alt"></i>
+                  <i class="bx bx-edit"></i>
                   <h3>Want to Join?</h3>
-                  <a href="https://forms.gle/Bfp9JQMfPSsHxMft8" target="_blank" onClick="gtag('event','sign_up')">Click
-                    Here</a>
+                  <a href="https://forms.gle/Bfp9JQMfPSsHxMft8" target="_blank" onClick="gtag('event','sign_up')">Sign
+                    Up Here</a>
                 </div>
               </div>
 
