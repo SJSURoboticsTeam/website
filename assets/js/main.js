@@ -24,7 +24,7 @@
   ) {
     if (
       location.pathname.replace(/^\//, "") ==
-        this.pathname.replace(/^\//, "") &&
+      this.pathname.replace(/^\//, "") &&
       location.hostname == this.hostname
     ) {
       e.preventDefault();
@@ -173,7 +173,7 @@
   // jQuery counterUp
   $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
-    time: 1000,
+    time: 1500,
   });
 
   // Gallery carousel (uses the Owl Carousel library)
