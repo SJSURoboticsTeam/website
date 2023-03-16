@@ -561,6 +561,10 @@ h6 {
   text-align: center;
 }
 
+#center-logo {
+  opacity: 0.9;
+}
+
 #homeLinks h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
